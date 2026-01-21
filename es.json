@@ -1,0 +1,115 @@
+{
+    "hero": {
+    "name": "Daphne Martiarena",
+    "subtitle": "Desarrolladora web junior especializada en HTML & CSS",
+    "description": "Creando experiencias web con atención al detalle, código semántico y diseño cuidadoso. Cada proyecto es un acto de dedicación artesanal.",
+    "cta": "Explorar servicios"
+  },
+  "services": {
+    "title": "Servicios",
+    "subtitle": "Ofrezco soluciones web cuidadosamente elaboradas",
+    "items": [
+      {
+        "title": "Maquetación HTML",
+        "description": "Estructura semántica y accesible. Código limpio que respeta los estándares web modernos y las mejores prácticas."
+      },
+      {
+        "title": "Diseño CSS",
+        "description": "Estilos personalizados, animaciones sutiles y diseños responsivos que funcionan en todos los dispositivos."
+      },
+      {
+        "title": "Responsive Design",
+        "description": "Experiencias adaptativas que se transforman perfectamente desde móvil hasta escritorio."
+      },
+      {
+        "title": "Desarrollo Frontend",
+        "description": "Implementación de interfaces interactivas con JavaScript vanilla y frameworks modernos."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Proyectos",
+    "subtitle": "Obras seleccionadas del repertorio",
+    "items": [
+      {
+        "title": "Portfolio Minimalista",
+        "description": "Sitio web personal con diseño limpio y responsivo. Implementado con HTML semántico y CSS Grid.",
+        "tags": ["HTML", "CSS", "Responsive", "Node.js"],
+        "link": "Ver proyecto"
+      },
+      {
+        "title": "Veterinaria gatuna",
+        "description": "Página web para una veterinaria especializada en gatos, con funcionalidades de contacto por WhatsApp.",
+        "tags": ["Bootstrap", "JavaScript", "CSS", "Responsive"],
+        "link": "Ver proyecto"
+      },
+      {
+        "title": "Tienda virtual",
+        "description": "Proyecto final de Jóvenes a Programar. Plataforma de e-commerce con exploración de productos, compras, perfil de usuario, filtrado, ordenamiento y comentarios.",
+        "tags": ["Bootstrap", "HTML", "JavaScript", "Node.js", "CSS", "Responsive"],
+        "link": "Ver proyecto"
+      },
+      {
+        "title": "Página informativa sobre MDMA",
+        "description": "Sitio web informativo sobre el MDMA (éxtasis), que aborda efectos, riesgos y contexto histórico desde un enfoque divulgativo y accesible. [EN DESARROLLO]",
+        "tags": ["Bootstrap", "HTML", "JavaScript", "CSS", "Responsive"],
+        "link": "Ver proyecto"
+      },
+      {
+        "title": "Gimnasio Cabra",
+        "description": "Sitio web institucional para un negocio local enfocado en entrenamiento físico y bienestar. Información clara sobre servicios, horarios y contacto. [EN PROCESO]",
+        "tags": ["Bootstrap", "HTML", "JavaScript", "CSS", "Responsive"],
+        "link": "Ver proyecto"
+      }
+    ]
+  },
+  "cta": {
+    "text": "¿Quieres ver más trabajos o colaborar en un proyecto?",
+    "button": "Hablemos"
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Herramientas del oficio, cultivadas con práctica",
+    "technical": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "GitHub", "Trello"]
+  },
+  "softSkills": {
+    "title": "Habilidades blandas",
+    "subtitle": "Cultivadas mediante la práctica y la experiencia.",
+    "items": [
+      "Autonomía en el trabajo",
+      "Comunicación asertiva",
+      "Organización y gestión del tiempo",
+      "Adaptabilidad",
+      "Pensamiento crítico",
+      "Atención al detalle"
+    ]
+  },
+  "contact": {
+    "title": "Contacto",
+    "subtitle": "¿Tienes un proyecto en mente? Conversemos.",
+    "form": {
+      "title": "Envíame un mensaje",
+      "name": "Nombre",
+      "email": "Email",
+      "message": "Mensaje",
+      "placeholders": {
+        "name": "Tu nombre",
+        "email": "tu@email.com",
+        "message": "Cuéntame sobre tu proyecto..."
+      },
+      "submit": "Enviar mensaje"
+    },
+    "info": {
+      "emailTitle": "Email directo",
+      "whatsappTitle": "WhatsApp",
+      "whatsappText": "¿Prefieres una respuesta rápida? Escríbeme directamente por WhatsApp.",
+      "availabilityTitle": "Disponibilidad",
+      "availabilityText": "Lunes - Viernes\n9:00 - 18:00 (GMT-5)",
+      "availabilityNote": "Respondo en un plazo de 24-48 horas",
+      "redes": "Sígueme en redes"
+    }
+  },
+  "footer": {
+    "rights": "Desarrolladora Web Junior. Todos los derechos reservados."
+  }
+}

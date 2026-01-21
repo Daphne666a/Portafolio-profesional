@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Daphne Martiarena</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+  <link rel="stylesheet" href="style.css">
+   <script src="main.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo-square" aria-hidden="true">
+          <i class="bi bi-code-square" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <nav class="socials" aria-label="Redes sociales">
+        <a href="https://github.com/Daphne666a" class="social" title="GitHub">
+          <i class="bi bi-github" aria-hidden="true"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/daphne-martiarena/" class="social" title="LinkedIn">
+          <i class="bi bi-linkedin" aria-hidden="true"></i>
+        </a>
+         <div class="languages">
+          <button class="languages-bottom" data-language-bottom="es">&#x1f1fa;&#x1f1fe</button>
+          <button class="languages-bottom" data-language-bottom="en">🇺🇸</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-icon" aria-hidden="true">
+          <i class="bi bi-code-slash"></i>
+        </div>
+
+        <h1 class="hero-title" data-value="name">Daphne Martiarena</h1>
+        <p class="hero-sub" data-value="subtitle">Desarrolladora web junior especializada en HTML &amp; CSS</p>
+        <p class="hero-desc" data-value="description">Creando experiencias web con atención al detalle, código semántico y diseño cuidadoso. Cada proyecto es un acto de dedicación artesanal.</p>
+
+        <button class="btn-outline" id="exploreBtn" aria-label="Explorar servicios" data-value="cta">Explorar servicios
+          <span class="chev" aria-hidden="true">▾</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="servicios" class="section services">
+      <div class="container">
+        <h2 class="section-title" data-value="services" data-section="title">Servicios</h2>
+        <p class="section-sub" data-value="services" data-section="subtitle">Ofrezco soluciones web cuidadosamente elaboradas</p>
+
+        <div class="grid services-grid">
+          <article class="card service">
+            <div class="card-icon">
+              <div class="icon-box" aria-hidden="true">
+                <i class="bi bi-file-earmark-code"></i>
+              </div>
+            </div>
+            <h3 class="card-title" data-value="services" data-section="title">Maquetación HTML</h3>
+            <p class="card-text" data-value="services" data-section="description">Estructura semántica y accesible. Código limpio que respeta los estándares web modernos y mejores prácticas.</p>
+          </article>
+
+          <article class="card service">
+            <div class="card-icon">
+              <div class="icon-box" aria-hidden="true">
+                <i class="bi bi-palette"></i>
+              </div>
+            </div>
+            <h3 class="card-title" data-value="services" data-section="title">Diseño CSS</h3>
+            <p class="card-text" data-value="services" data-section="description">Estilos personalizados, animaciones sutiles y diseños responsivos que funcionan en todos los dispositivos.</p>
+          </article>
+
+          <article class="card service">
+            <div class="card-icon">
+              <div class="icon-box" aria-hidden="true">
+                <i class="bi bi-phone"></i>
+              </div>
+            </div>
+            <h3 class="card-title" data-value="services" data-section="title">Responsive Design</h3>
+            <p class="card-text" data-value="services" data-section="description">Experiencias adaptativas que se transforman perfectamente desde móvil hasta escritorio.</p>
+          </article>
+
+          <article class="card service">
+            <div class="card-icon">
+              <div class="icon-box" aria-hidden="true">
+                <i class="bi bi-code-slash"></i>
+              </div>
+            </div>
+            <h3 class="card-title" data-value="services" data-section="title">Desarrollo Frontend</h3>
+            <p class="card-text" data-value="services" data-section="description">Implementación de interfaces interactivas con JavaScript vanilla y frameworks modernos.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section projects">
+      <div class="container">
+        <h2 class="section-title" data-value="projects" data-section="title">Proyectos</h2>
+        <p class="section-sub" data-value="projects" data-section="subtitle">Obras seleccionadas del repertorio</p>
+
+        <div class="grid project-grid">
+          <article class="project-card">
+            <img src="Portafolio.png" alt="Laptop minimalista" />
+            <div class="project-body">
+              <h3 class="project-title" data-value="projects" data-section="title">Portfolio Minimalista</h3>
+              <p class="project-text" data-value="projects" data-section="description">Sitio web personal con diseño limpio y responsivo. Implementado con HTML semántico y CSS Grid.</p>
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Responsive</span>
+                <span class="tag">Node js</span>
+              </div>
+              <a class="project-link" href="#" aria-label="Ver proyecto Portfolio Minimalista" data-value="projects" data-section="link">Ver proyecto ↗</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <img src="veterinaria.png" alt="Render móvil app" />
+            <div class="project-body">
+              <h3 class="project-title" data-value="projects" data-section="title">Veterinaria gatuna</h3>
+              <p class="project-text" data-value="projects" data-section="description">Este proyecto consiste en una página web para una veterinaria especializada en gatos, con funcionalidades de contacto por whatsapp.</p>
+              <div class="tags">
+                <span class="tag">Bootstrap</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Responsive</span>
+              </div>
+              <a class="project-link" href="#" aria-label="Ver proyecto Landing Page Corporativa" data-value="projects" data-section="link">Ver proyecto ↗</a>
+            </div>
+          </article>
+           <article class="project-card">
+            <img src="tienda virtual.png" alt="Dashboard" />
+            <div class="project-body">
+              <h3 class="project-title" data-value="projects" data-section="title">Tienda virtual</h3>
+              <p class="project-text" data-value="projects" data-section="description">Proyecto final de Jóvenes a Programar. Consiste en una plataforma de e-commerce donde los usuarios pueden explorar productos, realizar compras y gestionar su perfil. El sitio está diseñado para ofrecer una experiencia sencilla e intuitiva, con funcionalidades de filtrado, ordenamiento y comentarios sobre los productos.</p>
+              <div class="tags">
+                <span class="tag">Bootstrap</span>
+                <span class="tag">HTML</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Node js</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Responsive</span>
+              </div>
+              <a class="project-link" href="https://github.com/Daphne666a/Pagina_ecommerce" aria-label="Ver proyecto Dashboard Administrativo" data-value="projects" data-section="link">Ver proyecto ↗</a>
+            </div>
+          </article>
+              <article class="project-card">
+            <img src="#" alt="Dashboard" />
+            <div class="project-body">
+              <h3 class="project-title" data-value="projects" data-section="title">Página informativa sobre MDMA</h3>
+              <p class="project-text" data-value="projects" data-section="description"> Sitio web informativo sobre el MDMA (éxtasis), que aborda sus efectos, riesgos y contexto histórico, con un enfoque divulgativo y accesible. [EN DESARROLLO]</p>
+              <div class="tags">
+                <span class="tag">Bootstrap</span>
+                <span class="tag">HTML</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Responsive</span>
+              </div>
+              <a class="project-link" href="#" aria-label="Ver proyecto Dashboard Administrativo" data-value="projects" data-section="link">Ver proyecto ↗</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img src="#" alt="Dashboard" />
+            <div class="project-body">
+              <h3 class="project-title" data-value="projects" data-section="title">Gimnasio Cabra</h3>
+              <p class="project-text" data-value="projects" data-section="description">Sitio web institucional para Gimnasio Cabra, un negocio local enfocado en entrenamiento físico y bienestar, con información clara sobre servicios, horarios y contacto. [EN PROCESO]</p>
+              <div class="tags">
+                <span class="tag">Bootstrap</span>
+                <span class="tag">HTML</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">CSS</span>
+                <span class="tag">Responsive</span>
+              </div>
+              <a class="project-link" href="#" aria-label="Ver proyecto Dashboard Administrativo" data-value="projects" data-section="link">Ver proyecto ↗</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta">
+      <div class="container cta-box">
+        <p class="cta-text" data-value="cta" data-section="text">¿Quieres ver más trabajos o colaborar en un proyecto?</p>
+        <a class="btn-outline" href="#contacto" data-value="cta" data-section="button">Hablemos</a>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section skills">
+      <div class="container">
+        <h2 class="section-title" data-value="skills" data-section="title">Habilidades</h2>
+        <p class="section-sub" data-value="skills" data-section="subtitle">Herramientas del oficio, cultivadas con práctica</p>
+
+        <div class="grid skills-grid">
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-filetype-html"></i>
+            </div>
+            <p class="skill-name">HTML5</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-filetype-css"></i>
+            </div>
+            <p class="skill-name">CSS3</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-bootstrap"></i>
+            </div>
+            <p class="skill-name">Bootstrap</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-filetype-js"></i>
+            </div>
+            <p class="skill-name">JavaScript</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-github"></i>
+            </div>
+            <p class="skill-name">GitHub</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-kanban"></i>
+            </div>
+            <p class="skill-name">Trello</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h2 class="section-title" data-value="softSkills" data-section="title">Habilidades blandas</h2>
+        <p class="section-sub" data-value="softSkills" data-section="subtitle">Cultivadas mediante la práctica y la experiencia.</p>
+
+        <div class="grid skills-grid">
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-shield-check"></i>
+            </div>
+            <p class="skill-name" data-value="softSkills" data-section="items">Autonomía en el trabajo</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-chat-quote-fill"></i>
+            </div>
+            <p class="skill-name" data-value="softSkills" data-section="items">Comunicación asertiva</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-clock"></i>
+            </div>
+            <p class="skill-name" data-value="softSkills" data-section="items">Organización y gestión del tiempo</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-arrow-counterclockwise"></i>
+            </div>
+            <p class="skill-name" data-value="softSkills" data-section="items">Adaptabilidad</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-chat-dots-fill"></i>
+            </div>
+            <p class="skill-name" data-value="softSkills" data-section="items">Pensamiento crítico</p>
+          </div>
+
+          <div class="skill-card">
+            <div class="icon-box" aria-hidden="true">
+              <i class="bi bi-eyeglasses"></i>
+            </div>
+            <p class="skill-name" data-value="softSkills" data-section="items">Atención al detalle</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- CONTACTO (nuevo, detallado) -->
+<section id="contacto" class="section contact-expanded">
+  <div class="container">
+    <h2 class="section-title" data-value="contact" data-section="title">Contacto</h2>
+    <p class="section-sub" data-value="contact" data-section="subtitle">¿Tienes un proyecto en mente? Conversemos.</p>
+
+    <div class="contact-grid">
+      <!-- Left column: formulario grande -->
+      <div class="contact-panel form-panel">
+        <h3 class="panel-title" data-value="contact" data-section="form.title">Envíame un mensaje</h3>
+
+        <form id="contactForm">
+          <label class="field-label" data-value="contact" data-section="form.name">Nombre
+            <input type="text" name="nombre" placeholder="Tu nombre" required data-value="contact" data-section="form.placeholders.name">
+          </label>
+
+          <label class="field-label" data-value="contact" data-section="form.email">Email
+            <input type="email" name="email" placeholder="tu@email.com" required data-value="contact" data-section="form.placeholders.email">
+          </label>
+
+          <label class="field-label" data-value="contact" data-section="form.message">Mensaje
+            <textarea name="mensaje" rows="6" placeholder="Cuéntame sobre tu proyecto..." required data-value="contact" data-section="form.placeholders.message"></textarea>
+          </label>
+
+          <button class="btn-outline btn-send" type="submit" aria-label="Enviar mensaje">
+            <span class="plane" aria-hidden="true">✈</span> 
+            <span data-value="contact" data-section="form.submit">Enviar mensaje</span>
+          </button>
+        </form>
+      </div>
+
+      <!-- Right column: paneles de información -->
+      <aside class="contact-right">
+        <!-- Panel Email -->
+        <div class="contact-panel info-panel">
+          <div class="panel-icon" aria-hidden="true">
+            <i class="bi bi-envelope"></i>
+          </div>
+          <h4 class="panel-title-sm" data-value="contact" data-section="info.emailTitle">Email directo</h4>
+          <p class="panel-text">martiarenadaphne@gmail.com</p>
+        </div>
+
+        <!-- Panel WhatsApp -->
+        <div class="contact-panel info-panel whatsapp-panel">
+          <div class="panel-icon" aria-hidden="true">
+            <i class="bi bi-chat-dots"></i>
+          </div>
+          <h4 class="panel-title-sm" data-value="contact" data-section="info.whatsappTitle">WhatsApp</h4>
+          <p class="panel-text" data-value="contact" data-section="info.whatsappText">¿Prefieres una respuesta rápida? Escríbeme directamente por WhatsApp.</p>
+
+          <a class="btn-outline btn-whatsapp" href="https://wa.link/n9lxd2" target="_blank" rel="noopener" aria-label="Abrir WhatsApp">
+            <span data-value="contact" data-section="info.whatsappButton">Abrir WhatsApp</span>
+          </a>
+        </div>
+
+        <!-- Panel Disponibilidad -->
+        <div class="contact-panel info-panel availability-panel">
+          <h4 class="panel-title-sm" data-value="contact" data-section="info.availabilityTitle">Disponibilidad</h4>
+          <p class="panel-text" data-value="contact" data-section="info.availabilityText">Lunes - Viernes<br>9:00 - 18:00 (GMT-5)</p>
+          <hr class="panel-sep">
+          <p class="panel-note" data-value="contact" data-section="info.availabilityNote">Respondo en un plazo de 24-48 horas</p>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Follow block (full width) -->
+    <div class="follow-block">
+      <h4 class="follow-title" data-value="contact" data-section="info.redes">Sígueme en redes</h4>
+      <div class="follow-icons">
+        <a href="https://github.com/Daphne666a" class="social-square" title="GitHub">
+          <i class="bi bi-github" aria-hidden="true"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/daphne-martiarena/" class="social-square" title="LinkedIn">
+          <i class="bi bi-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <hr class="footer-sep">
+    <p>© <span id="year"></span> <span data-value="footer" data-section="rights">Desarrolladora Web Junior. Todos los derechos reservados.</span></p>
+  </div>
+</footer>
+
+  <script>
+    // Año en el footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Smooth scroll al sección servicios
+    document.getElementById('exploreBtn').addEventListener('click', function() {
+      document.querySelector('#servicios').scrollIntoView({ behavior: 'smooth' });
+    });
+  </script>
+  <script src="event.js"></script>
+</body>
+</html>

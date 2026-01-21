@@ -1,0 +1,115 @@
+{
+  "hero": {
+    "name": "Daphne Martiarena",
+    "subtitle": "Junior Web Developer specialized in HTML & CSS",
+    "description": "Crafting web experiences with attention to detail, semantic code, and thoughtful design. Every project is an exercise in careful, hands-on craftsmanship.",
+    "cta": "Explore services"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "I offer carefully crafted web solutions",
+    "items": [
+      {
+        "title": "HTML Markup",
+        "description": "Semantic and accessible structure. Clean code that follows modern web standards and best practices."
+      },
+      {
+        "title": "CSS Design",
+        "description": "Custom styles, subtle animations, and responsive layouts that work seamlessly across all devices."
+      },
+      {
+        "title": "Responsive Design",
+        "description": "Adaptive experiences that scale smoothly from mobile to desktop."
+      },
+      {
+        "title": "Frontend Development",
+        "description": "Implementation of interactive interfaces using vanilla JavaScript and modern frameworks."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Selected works",
+    "items": [
+      {
+        "title": "Minimalist Portfolio",
+        "description": "Personal website with a clean, responsive design. Built using semantic HTML and CSS Grid.",
+        "tags": ["HTML", "CSS", "Responsive", "Node.js"],
+        "link": "View project"
+      },
+      {
+        "title": "Cat-Focused Veterinary Clinic",
+        "description": "Website for a veterinary clinic specialized in cats, featuring WhatsApp contact functionality.",
+        "tags": ["Bootstrap", "JavaScript", "CSS", "Responsive"],
+        "link": "View project"
+      },
+      {
+        "title": "Online Store",
+        "description": "Final project for Jóvenes a Programar. An e-commerce platform where users can browse products, make purchases, and manage their profiles, featuring filtering, sorting, and product reviews.",
+        "tags": ["Bootstrap", "HTML", "JavaScript", "Node.js", "CSS", "Responsive"],
+        "link": "View project"
+      },
+      {
+        "title": "Informational Website about MDMA",
+        "description": "An informational website about MDMA (ecstasy), covering its effects, risks, and historical context with an accessible, educational approach. [IN DEVELOPMENT]",
+        "tags": ["Bootstrap", "HTML", "JavaScript", "CSS", "Responsive"],
+        "link": "View project"
+      },
+      {
+        "title": "Cabra Gym",
+        "description": "Institutional website for Cabra Gym, a local business focused on physical training and well-being, with clear information about services, schedules, and contact details. [IN PROGRESS]",
+        "tags": ["Bootstrap", "HTML", "JavaScript", "CSS", "Responsive"],
+        "link": "View project"
+      }
+    ]
+  },
+  "cta": {
+    "text": "Want to see more work or collaborate on a project?",
+    "button": "Let’s talk"
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Tools of the trade, refined through practice",
+    "technical": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "GitHub", "Trello"]
+  },
+  "softSkills": {
+    "title": "Soft skills",
+    "subtitle": "Developed through practice and experience.",
+    "items": [
+      "Autonomy at work",
+      "Assertive communication",
+      "Time management and organization",
+      "Adaptability",
+      "Critical thinking",
+      "Attention to detail"
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Have a project in mind? Let’s talk.",
+    "form": {
+      "title": "Send me a message",
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "placeholders": {
+        "name": "Your name",
+        "email": "your@email.com",
+        "message": "Tell me about your project..."
+      },
+      "submit": "Send message"
+    },
+    "info": {
+      "emailTitle": "Direct email",
+      "whatsappTitle": "WhatsApp",
+      "whatsappText": "Prefer a quick reply? Reach out to me directly via WhatsApp.",
+      "availabilityTitle": "Availability",
+      "availabilityText": "Monday – Friday\n9:00 AM – 6:00 PM (GMT-5)",
+      "availabilityNote": "I usually reply within 24–48 hours",
+      "redes": "Follow me on social media"
+    }
+  },
+  "footer": {
+    "rights": "Junior Web Developer. All rights reserved."
+  }
+}
