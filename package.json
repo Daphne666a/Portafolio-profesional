@@ -2,7 +2,6 @@
   "name": "portafolio",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
