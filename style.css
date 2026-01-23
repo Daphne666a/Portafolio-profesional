@@ -8,6 +8,12 @@
   --container: 1180px;
 }
 
+/* Font-display swap para Bootstrap Icons */
+@font-face {
+  font-family: "bootstrap-icons";
+  font-display: swap;
+}
+
 *{box-sizing:border-box} /* Reset box-sizing */
 html,body{height:100%}
 body{
@@ -21,10 +27,31 @@ body{
 }
 
 /* Optimización de carga de imágenes */
-img{
+img, picture{
   max-width:100%;
   height:auto;
   display:block;
+}
+
+/* Prevenir layout shift */
+img[width][height]{
+  height:auto;
+}
+
+/* Contenedor de aspecto para imágenes */
+picture{
+  position:relative;
+  aspect-ratio:3/2;
+  overflow:hidden;
+}
+
+picture img{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
 }
 
 /* Container */
