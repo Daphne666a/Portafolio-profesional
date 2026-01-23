@@ -40,8 +40,27 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"></noscript>
 
-  <!-- CSS principal minificado -->
-  <link rel="stylesheet" href="style.min.css">
+  <!-- CSS crítico inline (solo above the fold) -->
+  <style>
+    :root{--bg:#424568;--text:#e6e6e6;--accent:#9BE7A8;--border:rgba(255,255,255,0.95)}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html,body{height:100%;margin:0}
+    body{font-family:'Open Sans',system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+    .container{max-width:1180px;margin:0 auto;padding:0 28px}
+    .site-header{padding:18px 0}
+    .header-inner{display:flex;align-items:center;justify-content:space-between}
+    .logo-square{width:46px;height:46px;border:2px solid var(--border);display:flex;align-items:center;justify-content:center;color:var(--accent);border-radius:6px}
+    .socials{display:flex;gap:12px}
+    .social{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border:2px solid var(--border);border-radius:50%;color:var(--text);text-decoration:none;transition:all .3s}
+    .languages-bottom{background:transparent;border:none;color:var(--accent);cursor:pointer;font-size:1.2rem}
+    .hero{min-height:80vh;display:flex;align-items:center;text-align:center}
+    .hero-inner{display:flex;flex-direction:column;align-items:center;gap:16px}
+    .hero-title{font-family:'Playfair Display',serif;font-style:italic;font-weight:700;margin:0;color:var(--accent);font-size:clamp(36px,9vw,96px);line-height:.95}
+  </style>
+
+  <!-- CSS completo - carga diferida -->
+  <link rel="stylesheet" href="style.min.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="style.min.css"></noscript>
 
   <script src="main.js" defer></script>
   <script src="event.js" defer></script>
