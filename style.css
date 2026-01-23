@@ -8,12 +8,6 @@
   --container: 1180px;
 }
 
-/* Font-display swap para Bootstrap Icons */
-@font-face {
-  font-family: "bootstrap-icons";
-  font-display: swap;
-}
-
 *{box-sizing:border-box} /* Reset box-sizing */
 html,body{height:100%}
 body{
