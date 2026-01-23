@@ -5,14 +5,21 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Daphne Martiarena</title>
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet">
+  <!-- Preconnect para recursos externos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!-- Google Fonts con display=swap -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Playfair+Display:ital,wght@1,600;1,700&display=swap" rel="stylesheet"></noscript>
+
+  <!-- Bootstrap Icons con carga diferida -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"></noscript>
 
   <link rel="stylesheet" href="style.css">
-   <script src="main.js"></script>
+   <script src="main.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -114,7 +121,10 @@
 
         <div class="grid project-grid">
           <article class="project-card">
-            <img src="Portafolio.png" alt="Laptop minimalista" />
+            <picture>
+              <source srcset="Portafolio.webp" type="image/webp">
+              <img src="Portafolio.png" alt="Laptop minimalista" loading="lazy" width="600" height="400" />
+            </picture>
             <div class="project-body">
               <h3 class="project-title" data-value="projects" data-section="title">Portfolio Minimalista</h3>
               <p class="project-text" data-value="projects" data-section="description">Sitio web personal con diseño limpio y responsivo. Implementado con HTML semántico y CSS Grid.</p>
@@ -129,7 +139,10 @@
           </article>
 
           <article class="project-card">
-            <img src="veterinaria.png" alt="Render móvil app" />
+            <picture>
+              <source srcset="veterinaria.webp" type="image/webp">
+              <img src="veterinaria.png" alt="Render móvil app" loading="lazy" width="600" height="400" />
+            </picture>
             <div class="project-body">
               <h3 class="project-title" data-value="projects" data-section="title">Veterinaria gatuna</h3>
               <p class="project-text" data-value="projects" data-section="description">Este proyecto consiste en una página web para una veterinaria especializada en gatos, con funcionalidades de contacto por whatsapp.</p>
@@ -143,7 +156,10 @@
             </div>
           </article>
            <article class="project-card">
-            <img src="tienda virtual.png" alt="Dashboard" />
+            <picture>
+              <source srcset="tienda virtual.webp" type="image/webp">
+              <img src="tienda virtual.png" alt="Dashboard" loading="lazy" width="600" height="400" />
+            </picture>
             <div class="project-body">
               <h3 class="project-title" data-value="projects" data-section="title">Tienda virtual</h3>
               <p class="project-text" data-value="projects" data-section="description">Proyecto final de Jóvenes a Programar. Consiste en una plataforma de e-commerce donde los usuarios pueden explorar productos, realizar compras y gestionar su perfil. El sitio está diseñado para ofrecer una experiencia sencilla e intuitiva, con funcionalidades de filtrado, ordenamiento y comentarios sobre los productos.</p>
@@ -159,7 +175,7 @@
             </div>
           </article>
               <article class="project-card">
-            <img src="#" alt="Dashboard" />
+            <img src="#" alt="Dashboard" loading="lazy" width="600" height="400" />
             <div class="project-body">
               <h3 class="project-title" data-value="projects" data-section="title">Página informativa sobre MDMA</h3>
               <p class="project-text" data-value="projects" data-section="description"> Sitio web informativo sobre el MDMA (éxtasis), que aborda sus efectos, riesgos y contexto histórico, con un enfoque divulgativo y accesible. [EN DESARROLLO]</p>
@@ -174,7 +190,7 @@
             </div>
           </article>
           <article class="project-card">
-            <img src="#" alt="Dashboard" />
+            <img src="#" alt="Dashboard" loading="lazy" width="600" height="400" />
             <div class="project-body">
               <h3 class="project-title" data-value="projects" data-section="title">Gimnasio Cabra</h3>
               <p class="project-text" data-value="projects" data-section="description">Sitio web institucional para Gimnasio Cabra, un negocio local enfocado en entrenamiento físico y bienestar, con información clara sobre servicios, horarios y contacto. [EN PROCESO]</p>
