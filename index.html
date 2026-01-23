@@ -20,6 +20,9 @@
   
   <title>Daphne Martiarena - Desarrolladora Web Junior</title>
 
+  <!-- Sitemap -->
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
+
   <!-- Precargar archivos JSON críticos -->
   <link rel="preload" href="es.json" as="fetch" crossorigin>
   <link rel="preload" href="en.json" as="fetch" crossorigin>
@@ -37,8 +40,24 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" media="print" onload="this.media='all'">
   <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"></noscript>
 
-  <link rel="stylesheet" href="style.css">
+  <!-- CSS crítico inline -->
+  <style>
+    :root{--bg:#424568;--text:#e6e6e6;--accent:#9BE7A8;--border:rgba(255,255,255,0.95);--container:1180px}
+    *{box-sizing:border-box}html,body{height:100%;margin:0}
+    body{font-family:'Open Sans',system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    .container{max-width:var(--container);margin:0 auto;padding:0 28px}
+    img{max-width:100%;height:auto;display:block}
+    .site-header{padding:18px 0}
+    .header-inner{display:flex;align-items:center;justify-content:space-between}
+    .hero{min-height:80vh;display:flex;align-items:center}
+  </style>
+
+  <!-- CSS completo - carga diferida -->
+  <link rel="stylesheet" href="style.css" media="print" onload="this.media='all'">
+  <noscript><link rel="stylesheet" href="style.css"></noscript>
+
   <script src="main.js" defer></script>
+  <script src="event.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -423,6 +442,5 @@
       document.querySelector('#servicios').scrollIntoView({ behavior: 'smooth' });
     });
   </script>
-  <script src="event.js"></script>
 </body>
 </html>
