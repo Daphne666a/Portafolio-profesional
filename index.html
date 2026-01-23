@@ -23,17 +23,19 @@
   <!-- Sitemap -->
   <link rel="sitemap" type="application/xml" href="/sitemap.xml">
 
-  <!-- Precargar archivos JSON críticos -->
+  <!-- Precargar recursos críticos -->
+  <link rel="preload" href="style.min.css" as="style">
+  <link rel="preload" href="main.min.js" as="script">
+  <link rel="preload" href="Portafolio.webp" as="image">
   <link rel="preload" href="es.json" as="fetch" crossorigin>
   <link rel="preload" href="en.json" as="fetch" crossorigin>
 
   <!-- Preconnect para recursos externos -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
-  <!-- Google Fonts - reducir pesos, solo los necesarios -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <!-- Google Fonts optimizado - solo pesos usados con text subset -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@1,700&display=swap&text=DaphneMartiarenDsarolwbjucpzHCJvSétFlgóúíñ" rel="stylesheet" media="print" onload="this.media='all'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:ital,wght@1,700&display=swap" rel="stylesheet"></noscript>
 
   <!-- Bootstrap Icons - carga diferida -->
@@ -43,8 +45,8 @@
   <!-- CSS principal minificado -->
   <link rel="stylesheet" href="style.min.css">
 
-  <script src="main.js" defer></script>
-  <script src="event.js" defer></script>
+  <script src="main.min.js" defer></script>
+  <script src="event.min.js" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -146,7 +148,7 @@
 
         <div class="grid project-grid">
           <article class="project-card">
-            <img src="Portafolio.webp" alt="Laptop minimalista" loading="lazy" width="353" height="236" />
+            <img src="Portafolio.webp" alt="Laptop minimalista" fetchpriority="high" width="353" height="236" />
             <div class="project-body">
               <h3 class="project-title" data-value="projects" data-section="title">Portfolio Minimalista</h3>
               <p class="project-text" data-value="projects" data-section="description">Sitio web personal con diseño limpio y responsivo. Implementado con HTML semántico y CSS Grid.</p>
