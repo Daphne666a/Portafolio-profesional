@@ -4,3 +4,9 @@ node_modules/
 .vercel
 *.log
 .env*.local
+
+# Imágenes PNG originales pesadas (usar WebP)
+*-original.png
+Portafolio.png
+veterinaria.png
+tienda virtual.png
