@@ -1,14 +1,14 @@
 // Script para optimizar imágenes - Ejecutar con: node optimize-images.js
 // Primero instala sharp: npm install sharp
 
-const sharp = require('sharp');
-const fs = require('fs');
-const path = require('path');
+import sharp from 'sharp';
+import fs from 'fs';
 
 const imagesToOptimize = [
   'Portafolio.png',
   'veterinaria.png',
-  'tienda virtual.png'
+  'tienda virtual.png',
+  'gym cabra.png'
 ];
 
 async function optimizeImages() {

@@ -50,14 +50,8 @@
         "link": "View project"
       },
       {
-        "title": "Informational Website about MDMA",
-        "description": "An informational website about MDMA (ecstasy), covering its effects, risks, and historical context with an accessible, educational approach. [IN DEVELOPMENT]",
-        "tags": ["Bootstrap", "HTML", "JavaScript", "CSS", "Responsive"],
-        "link": "View project"
-      },
-      {
         "title": "Cabra Gym",
-        "description": "Institutional website for Cabra Gym, a local business focused on physical training and well-being, with clear information about services, schedules, and contact details. [IN PROGRESS]",
+        "description": "Institutional website for Cabra Gym, a local business focused on physical training and well-being, with clear information about services, schedules, and contact details.",
         "tags": ["Bootstrap", "HTML", "JavaScript", "CSS", "Responsive"],
         "link": "View project"
       }

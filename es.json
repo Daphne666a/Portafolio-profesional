@@ -50,14 +50,8 @@
         "link": "Ver proyecto"
       },
       {
-        "title": "Página informativa sobre MDMA",
-        "description": "Sitio web informativo sobre el MDMA (éxtasis), que aborda efectos, riesgos y contexto histórico desde un enfoque divulgativo y accesible. [EN DESARROLLO]",
-        "tags": ["Bootstrap", "HTML", "JavaScript", "CSS", "Responsive"],
-        "link": "Ver proyecto"
-      },
-      {
         "title": "Gimnasio Cabra",
-        "description": "Sitio web institucional para un negocio local enfocado en entrenamiento físico y bienestar. Información clara sobre servicios, horarios y contacto. [EN PROCESO]",
+        "description": "Sitio web institucional para un negocio local enfocado en entrenamiento físico y bienestar. Información clara sobre servicios, horarios y contacto.",
         "tags": ["Bootstrap", "HTML", "JavaScript", "CSS", "Responsive"],
         "link": "Ver proyecto"
       }
