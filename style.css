@@ -95,6 +95,16 @@ picture img{
   border-radius:6px;
 }
 .logo-square i{font-size:20px}
+.logo-square svg,
+.hero-icon svg {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+.hero-icon svg {
+  width: 36px;
+  height: 36px;
+}
 .socials{display:flex;gap:12px}
 .social{
   display:inline-flex;

@@ -1,7 +1,7 @@
 {
     "hero": {
     "name": "Daphne Martiarena",
-    "subtitle": "Desarrolladora web especializada en HTML & CSS",
+    "subtitle": "Desarrolladora web especializada en Worpress, HTML & CSS",
     "description": "Creando experiencias web con atención al detalle, código semántico y diseño cuidadoso. Cada proyecto es un acto de dedicación artesanal.",
     "cta": "Explorar servicios"
   },
@@ -24,6 +24,10 @@
       {
         "title": "Desarrollo Frontend",
         "description": "Implementación de interfaces interactivas con JavaScript vanilla y frameworks modernos."
+      },
+      {
+        "title": "Wordpress",
+        "description": "Desarrollo, diseño y personalización de sitios web con WordPress, incluyendo temas y plugins."
       }
     ]
   },
@@ -54,6 +58,12 @@
         "description": "Sitio web institucional para un negocio local enfocado en entrenamiento físico y bienestar. Información clara sobre servicios, horarios y contacto.",
         "tags": ["Bootstrap", "HTML", "JavaScript", "CSS", "Responsive"],
         "link": "Ver proyecto"
+      },
+      {
+        "title": "Green Tech",
+        "description": "Sitio web institucional para Green Tech, una empresa dedicada a la promoción de soluciones ecológicas y sostenibles, con información clara sobre sus productos, servicios y compromiso ambiental.",
+        "tags": ["Wordpress", "Responsive", "Hostinger"],
+        "link": "Ver proyecto"
       }
     ]
   },
@@ -64,7 +74,7 @@
   "skills": {
     "title": "Habilidades",
     "subtitle": "Herramientas del oficio, cultivadas con práctica",
-    "technical": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "GitHub", "Trello"]
+    "technical": ["HTML5", "CSS3", "Bootstrap", "JavaScript", "GitHub", "Wordpress"]
   },
   "softSkills": {
     "title": "Habilidades blandas",
@@ -99,7 +109,7 @@
       "whatsappText": "¿Prefieres una respuesta rápida? Escríbeme directamente por WhatsApp.",
       "whatsappButton": "Abrir WhatsApp",
       "availabilityTitle": "Disponibilidad",
-      "availabilityText": "Lunes - Viernes\n9:00 - 18:00 (GMT-5)",
+      "availabilityText": "Lunes - Viernes 9:00 - 18:00 (GMT-5)",
       "availabilityNote": "Respondo en un plazo de 24-48 horas",
       "redes": "Sígueme en redes"
     }
