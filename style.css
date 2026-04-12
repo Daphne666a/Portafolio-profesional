@@ -105,6 +105,12 @@ picture img{
   width: 36px;
   height: 36px;
 }
+.hero-mark {
+  display: block;
+  width: 36px;
+  height: 36px;
+  overflow: visible;
+}
 .socials{display:flex;gap:12px}
 .social{
   display:inline-flex;
