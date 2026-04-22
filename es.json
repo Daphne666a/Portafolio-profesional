@@ -5,6 +5,27 @@
     "description": "Creando experiencias web con atención al detalle, código semántico y diseño cuidadoso. Cada proyecto es un acto de dedicación artesanal.",
     "cta": "Explorar servicios"
   },
+  "about": {
+    "title": "Acerca de mí",
+    "intro": "Soy Daphne Martiarena, desarrolladora web full-stack especializada en crear experiencias digitales elegantes y accesibles. Con más de tres años de experiencia en desarrollo web, he trabajado en proyectos diversos para clientes de diferentes industrias, desde e-commerce hasta sitios corporativos y portfolios personales.",
+    "passion": "Mi pasión por el desarrollo web comenzó con una curiosidad simple: ¿cómo funcionan los sitios web que visitamos? Esa pregunta me llevó a aprender HTML, CSS y JavaScript, y eventualmente a especializarme en Wordpress y desarrollo frontend moderno. Cada proyecto que emprendo es una oportunidad para aplicar mejores prácticas de desarrollo, diseño responsivo y optimización SEO.",
+    "philosophy": {
+      "title": "Filosofía de trabajo",
+      "description": "Creo que el código debe ser no solo funcional, sino también legible, mantenible y accesible. Utilizo HTML semántico para crear estructuras que sean fáciles de entender tanto para humanos como para máquinas (como los buscadores). Mi enfoque en el diseño responsivo asegura que los sitios funcionen perfectamente en todos los dispositivos, desde smartphones hasta computadoras de escritorio."
+    },
+    "technologies": {
+      "title": "Tecnologías y herramientas",
+      "description": "Mi stack tecnológico incluye HTML5, CSS3 con metodologías como BEM, JavaScript vanilla y librerías modernas, Bootstrap, WordPress con temas y plugins personalizados, Git y GitHub, control de versiones, y herramientas de optimización de rendimiento. Siempre estoy aprendiendo nuevas tecnologías para mantenerme actualizado en este campo dinámico."
+    },
+    "experience": {
+      "title": "Experiencia y proyectos",
+      "description": "He trabajado en múltiples proyectos que demuestran versatilidad técnica y creatividad: Portfolio Minimalista implementado con HTML semántico y CSS Grid, Tienda Virtual con funcionalidades completas de e-commerce usando JavaScript y Node.js, Sitios WordPress personalizados para empresas como Green Tech, Landing pages responsivas con Bootstrap y JavaScript vanilla, Gimnasio Cabra con integración de WhatsApp, y Veterinaria Gatuna con funcionalidades específicas de contacto."
+    },
+    "quality": {
+      "title": "Compromiso con la calidad",
+      "description": "No solo creo sitios web que se ven bien, sino que priorizan la experiencia del usuario, la accesibilidad WCAG, la velocidad de carga y el posicionamiento en buscadores. Cada línea de código está escrita considerando el rendimiento y la mantenibilidad a largo plazo. Cuando trabajas conmigo, trabajas con alguien que se preocupa por los detalles y por entregar resultados excepcionales que superen tus expectativas."
+    }
+  },
   "services": {
     "title": "Servicios",
     "subtitle": "Ofrezco soluciones web cuidadosamente elaboradas",

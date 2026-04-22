@@ -5,6 +5,27 @@
     "description": "Crafting web experiences with attention to detail, semantic code, and thoughtful design. Every project is an exercise in careful, hands-on craftsmanship.",
     "cta": "Explore services"
   },
+  "about": {
+    "title": "About Me",
+    "intro": "I'm Daphne Martiarena, a full-stack web developer specializing in creating elegant and accessible digital experiences. With over three years of web development experience, I've worked on diverse projects for clients across various industries, from e-commerce to corporate websites and personal portfolios.",
+    "passion": "My passion for web development began with a simple curiosity: how do the websites we visit work? That question led me to learn HTML, CSS, and JavaScript, and eventually to specialize in WordPress and modern frontend development. Every project I undertake is an opportunity to apply best development practices, responsive design, and SEO optimization.",
+    "philosophy": {
+      "title": "Work Philosophy",
+      "description": "I believe code should be not only functional but also readable, maintainable, and accessible. I use semantic HTML to create structures that are easy to understand for both humans and machines (like search engines). My focus on responsive design ensures that websites work perfectly on all devices, from smartphones to desktop computers."
+    },
+    "technologies": {
+      "title": "Technologies and Tools",
+      "description": "My tech stack includes HTML5, CSS3 with methodologies like BEM, vanilla JavaScript and modern libraries, Bootstrap, WordPress with customized themes and plugins, Git and GitHub version control, and performance optimization tools. I'm always learning new technologies to stay current in this dynamic field."
+    },
+    "experience": {
+      "title": "Experience and Projects",
+      "description": "I have worked on multiple projects that demonstrate technical versatility and creativity: Minimalist Portfolio implemented with semantic HTML and CSS Grid, Online Store with complete e-commerce functionality using JavaScript and Node.js, Custom WordPress sites for companies like Green Tech, Responsive landing pages with Bootstrap and vanilla JavaScript, Cabra Gym with WhatsApp integration, and Cat-Focused Veterinary Clinic with specific contact features."
+    },
+    "quality": {
+      "title": "Commitment to Quality",
+      "description": "I don't just create beautiful websites; I prioritize user experience, WCAG accessibility, loading speed, and search engine optimization. Every line of code is written with performance and long-term maintainability in mind. When you work with me, you work with someone who cares about the details and delivering exceptional results that exceed your expectations."
+    }
+  },
   "services": {
     "title": "Services",
     "subtitle": "I offer carefully crafted web solutions",
