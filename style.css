@@ -249,7 +249,7 @@ picture img{
   line-height:1.8;
 }
 
-.about-grid{
+.grid.about-grid{
   grid-template-columns:repeat(2, 1fr);
   gap:28px;
   margin-top:40px;
@@ -438,7 +438,6 @@ picture img{
 @media (max-width:1100px){
   .contact-expanded .contact-grid{grid-template-columns:1fr 360px}
   .project-grid{grid-template-columns:repeat(2,1fr)}
-  .about-grid{grid-template-columns:repeat(2,1fr)}
 }
 @media (max-width:900px){
   .contact-expanded .contact-grid{grid-template-columns:1fr; gap:20px}
@@ -484,7 +483,7 @@ picture img{
   }
   .hero{padding:48px 0 70px}
   .project-grid{grid-template-columns:1fr}
-  .about-grid{grid-template-columns:1fr}
+  .grid.about-grid{grid-template-columns:1fr}
   .skills-grid{grid-template-columns:repeat(2,1fr)}
   .section-title{font-size:36px}
   .hero-desc{padding:0 12px}
@@ -494,7 +493,7 @@ picture img{
 }
 @media (max-width:420px){
   .skills-grid{grid-template-columns:1fr}
-  .about-grid{grid-template-columns:1fr}
+  .grid.about-grid{grid-template-columns:1fr}
   .card{padding:18px}
   .project-card img{height:auto}
   .follow-icons{gap:12px}
